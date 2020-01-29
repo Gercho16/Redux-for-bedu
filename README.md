@@ -1,3 +1,8 @@
+# Redux-for-bedu
+Redux-for-bedu es un repo donde se hizo un blog, aprendiendo redux, al principio los conceptos fueron faciles de absorber, pero luego se fue complicando D: del curso de [Curso de Redux por Bedu](https://platzi.com/clases/reux/ "Fundamentos de JavaScript") de [platzi](https://platzi.com "platzi")
+
+Es pero que con la practica pueda dominar esto XD.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

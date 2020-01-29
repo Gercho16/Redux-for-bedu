@@ -1,25 +1,23 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import {BrowserRouter, Route} from 'react-router-dom';
+import Menu from './Menu';
+import Usuarios from './usuarios/Usuarios';
+import Publicaciones from './Publicaciones';
+import Tareas from './Tareas';
+import TareasGuardar from './Tareas/Guardar';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Menu />
+        <div className="margen">
+          <Route exact path='/' component={Usuarios}/>
+          <Route exact path='/tareas' component={Tareas}/>  
+          <Route exact path='/publicaciones/:key' component={Publicaciones}/>  
+          <Route exact path='/tareas/guardar' component={TareasGuardar}/>  
+          <Route exact path='/tareas/guardar/:usuario_id/:tarea_id' component={TareasGuardar}/>  
+        </div> 
+    </BrowserRouter>  
   );
 }
 
