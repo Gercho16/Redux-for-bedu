@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Redux-for-bedu/static/css/main.1b9a2029.chunk.css",
+    "main.js": "/Redux-for-bedu/static/js/main.13af88b7.chunk.js",
+    "main.js.map": "/Redux-for-bedu/static/js/main.13af88b7.chunk.js.map",
+    "runtime-main.js": "/Redux-for-bedu/static/js/runtime-main.36b4d42c.js",
+    "runtime-main.js.map": "/Redux-for-bedu/static/js/runtime-main.36b4d42c.js.map",
+    "static/js/2.a297d29c.chunk.js": "/Redux-for-bedu/static/js/2.a297d29c.chunk.js",
+    "static/js/2.a297d29c.chunk.js.map": "/Redux-for-bedu/static/js/2.a297d29c.chunk.js.map",
+    "index.html": "/Redux-for-bedu/index.html",
+    "precache-manifest.857906c075ad5254388745f2d987e49e.js": "/Redux-for-bedu/precache-manifest.857906c075ad5254388745f2d987e49e.js",
+    "service-worker.js": "/Redux-for-bedu/service-worker.js",
+    "static/css/main.1b9a2029.chunk.css.map": "/Redux-for-bedu/static/css/main.1b9a2029.chunk.css.map",
+    "static/js/2.a297d29c.chunk.js.LICENSE": "/Redux-for-bedu/static/js/2.a297d29c.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.36b4d42c.js",
+    "static/js/2.a297d29c.chunk.js",
+    "static/css/main.1b9a2029.chunk.css",
+    "static/js/main.13af88b7.chunk.js"
+  ]
+}
